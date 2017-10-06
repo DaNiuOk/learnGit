@@ -1,4 +1,5 @@
 添加文件进暂存区：git add + 文件名称
+添加全部文件到暂存区：git add .
 提交到本地：git commit -m '备注'
 提交到远程：git push
 拉到本地：git pull
