@@ -1,4 +1,5 @@
 ﻿# learnGit
-学习git专用
+学习git
 
-蒋元改的
+学习c语言
+
