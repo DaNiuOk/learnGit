@@ -4,3 +4,7 @@
 提交到远程：git push
 拉到本地：git pull
 查询状态：git status
+
+查询修改行：git diff
+
+撤销工作区修改：git checkout 路径/.
