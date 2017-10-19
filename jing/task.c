@@ -36,6 +36,21 @@ int main ()
 		}
 		printf("\n");
 	}
+	int k;
+	 for (k=1;k<4;k++){
+	 	if (k==1){
+	 		printf("  *\n");
+		 }
+		 if (k==2){
+		 	printf(" **\n");
+		 }
+		 if (k==3){
+		 	printf("***\n");
+		 }
+	 }
+	 printf("  *\n");
+	 printf(" **\n");
+	 printf("***\n");
 	
 	//·ÀÖ¹×Ô¶¯¹Ø±Õ
 	int stop;
