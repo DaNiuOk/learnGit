@@ -36,6 +36,18 @@ int main ()
 		}
 		printf("\n");
 	}
+	 int k,l;
+int m=10;
+for (k=1;k<m;k++){
+	for (l=1;l<m;l++){
+		if (k<m-l){
+			printf("       ");
+		}else {
+			printf ("%d*%d=%2d ",(m-l),k,(m-l)*k);
+		}
+	}
+	printf("\n");
+} 
 	
 	//·ÀÖ¹×Ô¶¯¹Ø±Õ
 	int stop;
