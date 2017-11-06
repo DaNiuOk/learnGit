@@ -13,6 +13,7 @@ int main ()
         }
         printf("\n");
     }
+
     
     //·ÀÖ¹×Ô¶¯¹Ø±Õ
     int stop;
