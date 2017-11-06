@@ -1,7 +1,7 @@
 # include <stdio.h>
 int main ()
 {
-    int line = 14;
+    int line = 12;
     int i, j;
     for (i = 1; i < line; i++){
         for (j = 1; j < line; j++){
