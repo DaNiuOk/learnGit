@@ -1,4 +1,4 @@
-# include <stdio.h>
+/*# include <stdio.h>
 int main ()
 {
 	int a,b;
@@ -85,7 +85,61 @@ int x,y;
 		   }
 	   }
 	   printf("\n");
-   } 
+   } */
+# include <stdio.h>
+   # include <math.h> 
+   main()
+   {
+   	float x,y;
+   	printf("请输入一个数：");
+   	scanf("%f",&x);
+   	//另一种 
+   	if (x<0){
+   		y=x*x;
+	   } else if (x>=0&&x<10){
+	   y=-0.5*x+10;	
+	   } else {
+	   	y=x-sqrt(x);
+	   }
+	   if (x>=0){
+	   	if (x>=10){
+	   		y=x-sqrt(x);
+		   } else {
+		   	y=-0.5*x+10;
+		   }
+	   } else {
+	   	y=x*x;
+	   }
+   	printf("y=%f",y);
+   	# include <stdio.h>
+   	int main()
+   	{
+   		int C,M,E,sum=0;
+   		printf("请依次输入语文、数学、英语成绩：");
+   		scanf("%d%d%d",&C,&M,&E);
+   		sum=C+M+E;
+   		printf("总成绩为：%d",sum);
+   		# include <stdio.h>
+   		int main()
+   		{
+   			long x=0,y=1,z=1,i,t;
+   			for (i=2;i<65;i++){
+   				t=x+y;
+   				z=z+t;
+   				x=y;
+   				y=t;
+			   }
+			   printf("一共要放%d个谷粒。",z);
+			   # include <stdio.h>
+			   int main()
+			   {
+			   	int i,sum=1,n;
+			   	printf("求2的n次方，请输入n：");
+			   	scanf("%d",&n);
+			   	for (i=1;i<=n;i++){
+			   		sum=sum*2;
+				   }
+				   printf("2的n次方为：%d",sum);
 
 
 
