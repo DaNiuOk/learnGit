@@ -1,18 +1,21 @@
 #include<stdio.h>
 int main() 
-{ 
-    int line =10;
-    int i, j;
-    for (i = 1; i < line; i++){
-        for (j = 1; j < line; j++){
-            if (i < line - j) {
-                printf("      ");
-            } else {
-                printf("%dx%d=%d",i,j ,i*j);
-             
-		    }
-        }
-        printf("\n");
-       
-    } 
-} 
+{
+	int a,b,c;
+	for(a=1;a<10;a++) {
+			for(b=1;b<10;b++){
+				if(a>3&&a<7){
+					printf(" ");
+				}else{
+					printf("*");
+				}
+				if(b>3&&b<7){
+					printf(" ");
+				}else{
+					printf("*");
+				}
+			}
+			printf("\n");
+		}
+		return 0;
+	}

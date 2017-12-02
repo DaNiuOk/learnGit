@@ -8,7 +8,7 @@ int main()
             if (i < line - j) {
                 printf("      ");
             } else {
-                printf("%dx%d=%d",i,j ,i*j);
+                printf("%dx%d=%d ",i,j ,i*j);
              
 		    }
         }
