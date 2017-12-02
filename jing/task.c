@@ -93,7 +93,7 @@ int x,y;
    	float x,y;
    	printf("请输入一个数：");
    	scanf("%f",&x);
-   	//另一种 
+//or
    	if (x<0){
    		y=x*x;
 	   } else if (x>=0&&x<10){
