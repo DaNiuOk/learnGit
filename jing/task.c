@@ -85,7 +85,7 @@ int x,y;
 		   }
 	   }
 	   printf("\n");
-   } */
+   } 
 # include <stdio.h>
    # include <math.h> 
    main()
@@ -129,8 +129,8 @@ int x,y;
    				x=y;
    				y=t;
 			   }
-			   printf("一共要放%d个谷粒。",z);
-			   # include <stdio.h>
+			   printf("一共要放%ld个谷粒。",z);
+			  # include <stdio.h>
 			   int main()
 			   {
 			   	int i,sum=1,n;
@@ -140,6 +140,53 @@ int x,y;
 			   		sum=sum*2;
 				   }
 				   printf("2的n次方为：%d",sum);
+ //冒泡排序法 
+	# include <stdio.h>
+	int main()
+	{
+		int i,j,t;
+		int a[8]={38,49,65,76,13,27,97,30};
+		printf("The array before sorted:");
+		for (i=0;i<8;i++)
+		printf("%-3d",a[i]);
+		for (i=0;i<7;i++){
+			for (j=i+1;j<8;j++){
+				if (a[i]>a[j]){
+					t=a[i];
+					a[i]=a[j];
+					a[j]=t;
+				}
+			}
+		}
+		printf("The array after sorted:");
+		for (i=0;i<8;i++)
+		printf("%-3d",a[i]);*/
+//简单选择排序法
+    # include <stdio.h>
+	int main()
+	{
+		int i,j,t;
+		int a[8]={38,49,65,76,13,27,97,30};
+		printf("The array before sorted:");
+		for (i=0;i<8;i++)
+		printf("%3d",a[i]);
+		for (i=0;i<7;i++){
+			int temp=0;
+			int min=i;
+			for (j=i+1;j<8;j++)	{
+				if (a[min]>a[j]){
+					min=j;
+				}
+			}
+			temp=a[min];
+			a[min]=a[i];
+			a[i]=temp;	
+	 }
+	 printf("The array after sorted:");
+		for (i=0;i<8;i++)
+		printf("%3d",a[i]); 
+		 
+	
 
 
 
